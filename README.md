@@ -1,27 +1,21 @@
-##### REQUIREMENTS #####
+# league-of-legends-stats is a page that shows League of Legends statistics, created using React 
 
-- Landing page with a list of users -> each user has a detail page with stats
-- Type of statistics we want to show in the main page:
+This is a project developed in group, using Typescript and react class components. Inspired on op.gg.
+It uses the official league of legends API to retrieve all the necesary data. Also uses react router and axios libraries.
+Currently still under development.
 
-        *Rank of users 
-        Name
-        Tier
-        Image
-        WinRate
-        Level
-    
--Type of statistics we want to show in the user page:
 
-        *win
-        lost
-        Rank(tier)
-        Champion mastery
-        type of match
-        Image
-        teams where the user plays
-        score
-        Region
+![alt text](https://i.ibb.co/CJhVNH4/lolLG.png)
 
-### CHANGES ###
+## How to use
 
-- Mudar o summoner da nav e deixar apenas a pesquisa para os inputs
+1. Clone this repository.
+
+```
+git clone https://github.com/salgadopietrini/league-of-legends-stats.git
+```
+
+2. Run `npm install`.
+3. Run `npm start`. The command will start a local live server. Open (http://localhost:3000/) in your browser, if the tab doesn't open automatically.
+
+
